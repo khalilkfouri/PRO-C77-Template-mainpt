@@ -26,7 +26,7 @@ export default class HomeScreen extends Component {
                         source={require('../assets/stars.gif')} 
                         style={styles.backgroundImage}> 
                 */}
-                {/* <ImageBackground 
+                <ImageBackground 
                         source={require('../assets/stars.gif')} 
                         style={styles.backgroundImage}> 
                 */}
@@ -52,7 +52,7 @@ export default class HomeScreen extends Component {
                           style={styles.routeCard} onPress={() =>
                         this.props("SpaceCraft")
                     }> */}
-                    {/* <TouchableOpacity 
+                     <TouchableOpacity 
                           style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("SpaceCraft")
                     }> */}                    
